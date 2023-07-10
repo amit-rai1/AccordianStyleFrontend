@@ -27,7 +27,7 @@ const CreateBlogForm = () => {
     const res = await userRegister(requestData);
     console.log(res, "api");
     if (res.status === 200) {
-      dispatch(setCategory(input.category)); // dispatching action to set category data in Redux store
+      dispatch(setCategory(input.category)); 
       alert("success")
       navigate("/");
     
