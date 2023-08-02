@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* src/index.css */
+
+/* Import Helvetica font */
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./fonts/helvetica.ttf') format('truetype');
+}
+
+/* Set the default font to Helvetica */
+body {
+  font-family: Helvetica, Arial, sans-serif;
 }
